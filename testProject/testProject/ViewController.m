@@ -18,13 +18,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     //这是项目的开始-----加油啊
+    
+    [self getMethod];
+    
+}
+-(void)getMethod{
+    NSLog(@"-----------------------");
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end
